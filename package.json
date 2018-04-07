@@ -1,0 +1,17 @@
+{
+  "name": "aws-node",
+  "version": "0.0.0",
+  "description": "",
+  "main": "service.js",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "serialport": "^6.0.0-beta2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node service.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
