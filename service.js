@@ -81,7 +81,7 @@ app.get('/getPorts', function (req, res) {
     var Devices = [];
     SerialPort.list(function (err, ports) {
         ports.forEach(function (port) {
-            Devices.push(port.comName + '-' + port.pnpId);
+            Devices.push(port.comName + '---' + port.pnpId);
         });
         res.send(JSON.stringify(Devices));
     });
